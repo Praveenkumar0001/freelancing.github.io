@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Josefin+Sans&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+.sidebar{
+    background-color: rgb(138, 126, 126);
+    width:10vw;
+    font-family: 'Borel', cursive;
+font-family: 'Josefin Sans', sans-serif;
+}
+.sidebar nav{
+    padding: 45px; 
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+.main{
+    /* background-color: yellow; */
+    width:90vw;
+}
+.container{
+    display: flex;
+}
+.infoContainer{
+ /* background-color: rgb(126, 90, 153);  */
+height: 68vh;
+width: 80vw;
+margin: 144px auto;
+display: flex;
+justify-content: space-around;
+}
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code pro',monospace;
+}
+.hello{
+    font-size: 65px;
+}
+.name{
+    font-size: 50px;
+    font-weight: bold;
+}
+.about{
+    font-size: 60px;
+}
+.moreabout{
+    font-size: 22px;
+    font-family: 'Fira Sans',sans-serif;
+}
+
+.buttons button{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+.buttons button:hover{
+    color: violet;
+    background-color: aliceblue;
+    
+
+}
+
+.devPic img{
+    height: 58vh;
+}
